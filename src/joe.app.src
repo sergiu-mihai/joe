@@ -1,0 +1,12 @@
+{application, joe,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { joe_app, []}},
+  {env, []}
+ ]}.
